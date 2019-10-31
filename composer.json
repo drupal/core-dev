@@ -1,0 +1,23 @@
+{
+    "name": "drupal/core-dev",
+    "type": "metapackage",
+    "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "behat/mink": "1.8.0 | 1.7.1.1 | 1.7.x-dev",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-selenium2-driver": "1.4.0 | 1.3.1.1 | 1.3.x-dev",
+        "drupal/coder": "^8.2.12",
+        "jcalderonzumba/gastonjs": "^1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
+        "mikey179/vfsStream": "^1.2",
+        "phpspec/prophecy": "^1.4",
+        "phpunit/phpunit": "^4.8.35 || ^6.5",
+        "symfony/css-selector": "^3.4.0",
+        "symfony/debug": "^3.4.0",
+        "symfony/phpunit-bridge": "^3.4.3"
+    },
+    "conflict": {
+        "webflo/drupal-core-require-dev": "*"
+    }
+}
