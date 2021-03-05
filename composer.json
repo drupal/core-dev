@@ -27,5 +27,8 @@
         "symfony/lock": "^4.4",
         "symfony/phpunit-bridge": "^5.1.4",
         "symfony/var-dumper": "^5.1.2"
+    },
+    "suggest": {
+        "phpspec/prophecy-phpunit": "Drupal requires Prophecy PhpUnit when using PHPUnit 9. Please use 'composer require --dev phpspec/prophecy-phpunit:^2' to ensure that it is present.",
     }
 }
