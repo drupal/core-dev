@@ -12,7 +12,7 @@
         "composer/composer": "^2.2.12",
         "drupal/coder": "^8.3.10",
         "easyrdf/easyrdf": "^0.9 || ^1.0",
-        "friends-of-behat/mink-browserkit-driver": "^1.4",
+        "behat/mink-browserkit-driver": "^2.1",
         "instaclick/php-webdriver": "^1.4.1",
         "justinrainbow/json-schema": "^5.2",
         "mikey179/vfsstream": "^1.6.11",
